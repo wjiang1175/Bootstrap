@@ -79,11 +79,6 @@ body{
     margin-left: 10%;
     margin-right: 15%;
 }
-@media (min-width: 992px) {
-    .p1 {
-        width: 550px;
-    }
-}
 .col2{
     margin-top: 14%;
 }
@@ -249,4 +244,11 @@ h3 {
     text-align: center;
     color: white;
     padding-bottom: 8px;
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+    .p1 {
+        width: 550px;
+    }
 }
