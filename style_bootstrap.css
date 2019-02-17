@@ -168,21 +168,15 @@ body{
 .hangman{
  padding-top: 20px;
  position: relative;
+ background-color: #212529;
+ padding-right: 1.5vw;
+ padding-left: 1.5vw;
+ margin-bottom: 2vh;
 }
 .hangman_head{
-    width: 250px;
-    height: 50px;
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 175px;
     text-align: center;
-    padding-bottom: 8px;
     color: white;
-}
-h3 {
-    font-weight: normal;
     font-size: 25px;
-    margin-top: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
@@ -190,62 +184,65 @@ h3 {
 .rpg{
     padding-top: 20px;
     position: relative;
+    background-color: #212529;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
 }
 .rpg_head{
-    width: 250px;
-    height: 50px;
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 175px;
     text-align: center;
     color: white;
-    padding-bottom: 8px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 .trivia{
-    padding-top: 30px;
+    padding-top: 20px;
     position: relative;
+    background-color: #212529;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    margin-bottom: 2vh;
 }
 .trivia_head{
-    width: 250px;
-    height: 50px;
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 175px;
     text-align: center;
     color: white;
-    padding-bottom: 8px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
-.rock{
-    padding-top: 30px;
+.rock {
+    padding-top: 20px;
+    position: relative;
+    background-color: #212529;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+}
+.rock_head{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.rutger{
+    padding-top: 20px;
+    position: relative;
+    background-color: #212529;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+}
+.rutger_head{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.empty{
+    padding-top: 15vh;
     position: relative;
     padding-bottom: 40px;
 }
-.rock_head{
-    width: 250px;
-    height: 50px;
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 175px;
-    text-align: center;
-    color: white;
-    padding-bottom: 8px;
-}
-.rutger{
-    padding-top: 30px;
-    position: relative;
-    
-}
-.rutger_head{
-    width: 250px;
-    height: 50px;
-    background-color: #4aaaa5;
-    position: absolute;
-    top: 175px;
-    text-align: center;
-    color: white;
-    padding-bottom: 8px;
-}
-
 /* Media Queries */
 @media (min-width: 992px) {
     .p1 {
