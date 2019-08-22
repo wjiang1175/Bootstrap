@@ -6,6 +6,9 @@ body {
    width: 100%;
    overflow-x: hidden;
    position: relative;
+   background-image: url(../Bootstrap-Portfolio/images/background.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 body{
     background-color: black;
@@ -17,18 +20,7 @@ body{
 .shout-img{
     background: darkgrey;
 }
-.myVideo {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    max-height: 110vh;
-    overflow: hidden;
-    opacity: .5;
-    background-size: 100%;
-  }
+
 .about_me{
     font-size: 53px;
     width: 350px;
@@ -47,6 +39,11 @@ body{
     color: white;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 .main_nav{
     margin-left: 75%;
@@ -89,6 +86,7 @@ body{
 .main-jumbo {
     margin-top: 30vh !important;
     background-color:  darkred;
+    opacity: .45;
 }
 .jumbo-welcome {
     color: white;
