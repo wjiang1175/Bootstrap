@@ -10,10 +10,6 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
 }
-body{
-    background-color: black;
-    position: relative;
-}
 .navbar-brand:hover {
     color: gray !important;
 }
